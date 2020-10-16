@@ -1,0 +1,49 @@
+{
+  "topics": [
+    "Only one player is allowed inside, it does not have to be the same player",
+    "No flashlights",
+    "You cannot use the {0.random}",
+    "You can only say the ghosts name, nothing else",
+    "Everyone brings a camera and must get their own photo of the ghost before leaving",
+    "Once you enter the house you can't leave the house until you figure out the ghost",
+    "You stand in a circle calling out the ghost name until someone dies, once someone dies you play as normal",
+    "No items except {0.random}",
+    "Only one player is allowed inside, it must be the same player",
+    "You must use all items in this list: {0.identifiableItems}",
+    "One player must actively sabotage the team"
+  ],
+  "itemList": [
+    "Flashlights",
+    "EMF Reader",
+    "Video Camera",
+    "Photo Camera",
+    "Sanity Pills",
+    "Lighter",
+    "Candle",
+    "UV Light",
+    "Crucifix",
+    "Spirit Box",
+    "Salt",
+    "Smudge Sticks",
+    "Strong Flashlight",
+    "Thermometer",
+    "Ghost Writing Book",
+    "Glowstick",
+    "Motion Sensor",
+    "Infrared Light Sensor",
+    "Sound Sensor",
+    "Parabolic Microphone",
+    "Head-mounted Camera",
+    "Tripod",
+    "Ouija Board"
+  ],
+  "identifiableItems": [
+    "Spirit Box",
+    "UV Light",
+    "Video Camera",
+    "EMF Reader",
+    "Thermometer",
+    "Ghost Writing Book",
+    ""
+  ]
+}
