@@ -1,7 +1,7 @@
 import json
 import random
 
-data = json.loads(open("topics.json", "r").read())
+data = json.loads(open("server/topics.json", "r").read())
 
 
 def get_topic():

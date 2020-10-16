@@ -5,7 +5,7 @@ import random
 
 app = Flask(__name__)
 
-data = json.loads(open("../topics.json", "r").read())
+data = json.loads(open("topics.json", "r").read())
 
 
 @app.route("/new-topic", methods=["GET"])
