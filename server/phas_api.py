@@ -10,6 +10,7 @@ data = json.loads(open("/var/www/phas_api/phasmophobia_randomizer/server/topics.
 
 
 @app.route("/new-topic", methods=["GET"])
+@cross_origin()
 def new_topic():
     picked = random.choice(data["topics"])
     picked = check_regex(picked)
