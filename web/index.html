@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Phasmophobia Randomizer</title>
+</head>
+<body>
+    <h1 id="topic">None Yet</h1>
+    <button id="new_topic" name="New Topic" onclick="newTopic()">New Topic</button>
+</body>
+
+<script>
+    const http = new XMLHttpRequest()
+    function newTopic() {
+        http.open("GET", "https://phas.discordian.dev/new-topic")
+        http.send()
+        http.onreadystatechange = (e) => {
+          document.getElementById("topic").innerText = http.responseText;
+        }
+    }
+</script>
+</html>
