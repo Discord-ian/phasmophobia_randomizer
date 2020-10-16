@@ -1,16 +1,13 @@
 from flask import Flask, request
-from flask_cors import CORS
 import json
 import random
 
 
 app = Flask(__name__)
-CORS(app)
 data = json.loads(open("/var/www/phas_api/phasmophobia_randomizer/server/topics.json", "r").read())
 
 
 @app.route("/new-topic", methods=["GET"])
-@cross_origin()
 def new_topic():
     picked = random.choice(data["topics"])
     picked = check_regex(picked)
