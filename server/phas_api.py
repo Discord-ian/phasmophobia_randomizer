@@ -14,7 +14,7 @@ def new_topic():
     return picked
 
 
-@app.route("randomizer")
+@app.route("/randomizer")
 def randomizer():
     return app.send_static_file("/var/www/phas_api/phasmophobia_randomizer/docs/index.html")
 
