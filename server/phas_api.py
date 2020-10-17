@@ -14,6 +14,11 @@ def new_topic():
     return picked
 
 
+@app.route("randomizer")
+def randomizer():
+    return app.send_static_file("/var/www/phas_api/phasmophobia_randomizer/docs/index.html")
+
+
 def check_regex(item):
     if "{0." in item:
         to_c = item.split("{0.")[1].split("}")[0]
