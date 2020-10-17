@@ -12,7 +12,7 @@
 <script>
     const http = new XMLHttpRequest()
     function newTopic() {
-        http.open("GET", "https://phas.discordian.dev/new-topic")
+        http.open("GET", "https://phasmophobia.discordian.dev/new-topic")
         http.send()
         http.onreadystatechange = (e) => {
           document.getElementById("topic").innerText = http.responseText;
